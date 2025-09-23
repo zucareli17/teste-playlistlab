@@ -36,4 +36,4 @@
 - **Dark mode:** implementação da mudança de tema do site, com um clique.
 
 ## Deploy
-  - **Aplicação pública:** [adicione o link aqui]
+  - **Aplicação pública:** (https://teste-playlistlab.vercel.app/)
