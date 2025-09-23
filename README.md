@@ -22,6 +22,10 @@
 (#D1D5DB).
 - **Dark/Light mode** opcional para customização da experiência.
 
+## Uso de IA
+  Durante o desenvolvimento foi utilizada IA (ChatGPT) para:
+  - Gerar uma capa base ilustrativa da playlist.
+
 ## Desafios e Soluções
   - **Persistência de dados:** uso de `localStorage` para manter progresso
   entre recarregamentos.
