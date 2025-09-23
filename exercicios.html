@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+            <title>Exercícios — Playlist Lab</title>
+    </head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <h1 class="brand">Playlist Lab</h1>
+            <nav aria-label="Navegação principal">
+                <ul class="nav-list">
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="tutorial.html">Tutorial</a></li>
+                    <li><a href="exercicios.html">Exercícios</a></li>
+                </ul>
+            </nav>
+            <button id="theme-toggle">Tema</button><i class="fa-solid fa-moon"></i>
+            <button id="theme-toggle-2">Tema</button>
+        </div>
+    </header>
+
+
+    <main class="container exercises">
+        <h2>Exercícios</h2>
+
+        <section class="exercise" id="q1" data-type="single">
+            <h3>1. Qual é o primeiro passo para criar uma playlist no Spotify?</h3>
+            <div class="options">
+            <button class="option" data-correct="false">Criar conta no Spotify</button>
+            <button class="option" data-correct="true">Escolher um nome e tema</button>
+            <button class="option" data-correct="false">Adicionar 100 músicas</button>
+            </div>
+            <div class="feedback" aria-live="polite"></div>
+        </section>
+
+
+        <section class="exercise" id="q2" data-type="multiple">
+            <h3>2. Quais elementos são importantes em uma playlist temática? (escolha todas que se aplicam)</h3>
+                <div class="options">
+                    <button class="option" data-correct="true">Nome criativo</button>
+                    <button class="option" data-correct="true">Capa personalizada</button>
+                    <button class="option" data-correct="false">Músicas totalmente aleatórias</button>
+                    <button class="option" data-correct="true">Ordem coerente</button>
+                </div>
+                <div class="feedback" aria-live="polite"></div>
+        </section>
+
+        <section class="exercise" id="q3" data-type="combobox">
+            <h3>3. Qual dessas opções o Spotify oferece para gerenciar playlists?</h3>
+                <label for="q3-select" class="sr-only">Escolha a opção</label>
+                    <select id="q3-select">
+                    <option value="">-- selecione --</option>
+                    <option value="capa">Criar capa</option>
+                    <option value="eq">Equalizador</option>
+                    <option value="colab">Edição colaborativa</option>
+                    <option value="estat">Estatísticas</option>
+                    </select>
+                <div class="feedback" aria-live="polite"></div>
+        </section>
+
+        <section class="submit-all">
+            <button id="submit-all" class="btn">Enviar todas as respostas</button>
+            <div id="final-feedback" aria-live="polite"></div>
+            <p class="meta">Tentativas restantes: <span id="final-tries">3</span></p>
+        </section>
+        <section class="final-score">
+            <h3>Sua pontuação final</h3>
+            <p id="score">0 / 3</p>
+        </section>
+
+        <section class="result" aria-live="polite"></section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">© 2025 Playlist Lab</div>
+    </footer>
+
+    <script src="script.js"></script>
+    </body>
+</html>
